@@ -108,7 +108,7 @@ i {
   color: #a05344;
   text-align: center;
 }
-@media (max-width: 960px) {
+@media (max-width: 890px) {
   ul {
     margin: 10px;
     text-align: center;
@@ -119,7 +119,7 @@ i {
   .box {
     max-width: 500px;
     height: 1350px;
-    margin: 2px;
+    margin: 10px auto;
   }
   .main {
     max-width: 450px;
