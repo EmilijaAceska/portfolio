@@ -6,6 +6,7 @@
 ul {
   list-style: none;
   margin-left: 58px;
+  text-align: center;
 }
 li {
   display: inline-block;
@@ -107,4 +108,47 @@ i {
 .footer {
   color: #a05344;
   text-align: center;
+}
+@media (max-width: 960px) {
+  ul {
+    margin: 10px;
+  }
+  li {
+    display: block;
+  }
+  .box {
+    max-width: 500px;
+    height: 1350px;
+    margin: 2px;
+  }
+  .main {
+    max-width: 450px;
+    height: 700px;
+  }
+  .display-heading {
+    max-width: 250px;
+    height: 380px;
+    padding: 20px 20px 0;
+  }
+  .display-section {
+    width: 250px;
+    height: 700px;
+  }
+  .fa-html5,
+  .fa-css3-alt,
+  .fa-js-square,
+  .fa-react,
+  .fa-php,
+  .fa-database,
+  .fa-angular,
+  .fa-wordpress,
+  .fa-git,
+  .fa-cogs {
+    font-size: 36px;
+    margin: 20px;
+  }
+  .project-img {
+    width: 130px;
+    height: 80px;
+  }
 }
