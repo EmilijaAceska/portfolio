@@ -108,7 +108,7 @@ i {
   color: #a05344;
   text-align: center;
 }
-@media (max-width: 890px) {
+@media screen and (max-width: 890px) {
   ul {
     margin: 10px;
     text-align: center;
@@ -118,7 +118,7 @@ i {
   }
   .box {
     max-width: 500px;
-    height: 1350px;
+    height: 1250px;
     margin: 10px auto;
   }
   .main {
@@ -131,8 +131,8 @@ i {
     padding: 20px 20px 0;
   }
   .display-section {
-    width: 250px;
-    height: 700px;
+    width: 290px;
+    height: 600px;
   }
   .fa-html5,
   .fa-css3-alt,
@@ -145,10 +145,10 @@ i {
   .fa-git,
   .fa-cogs {
     font-size: 36px;
-    margin: 20px;
+    margin: 18px;
   }
   .project-img {
-    width: 130px;
+    width: 150px;
     height: 80px;
   }
 }
