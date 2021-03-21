@@ -108,6 +108,11 @@ i {
   color: #a05344;
   text-align: center;
 }
+@media screen and (min-width: 890px) and (max-width: 1020px) {
+  ul {
+    margin-left: 10px;
+  }
+}
 @media screen and (max-width: 890px) {
   ul {
     margin: 10px;
