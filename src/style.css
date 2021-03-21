@@ -145,7 +145,7 @@ i {
   .fa-git,
   .fa-cogs {
     font-size: 36px;
-    margin: 18px;
+    margin: 25px auto;
   }
   .project-img {
     width: 150px;
